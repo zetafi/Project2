@@ -20,6 +20,9 @@ This project contained data file and regression code to replicate the regression
 
 
 ### Result
+Table 2 Model(1) without dummy variable and Model(2) with dummy variable.
+
+
 Variable | Model(1) | Model(2)
 -|-|-
 Share of GDP|-0.06510142|-0.060373797
