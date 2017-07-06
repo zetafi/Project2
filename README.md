@@ -7,7 +7,7 @@ This project contained data file and regression code to replicate the regression
 
 ### Datas
 * __Tables.xlsx__ contains the CAR values for each application catagorized in Winners/ Losers/Losers
-* __HistoricalGDPSharesValues.xls__ contains ShareGDP datas from https://www.ers.usda.gov/data-products/international-macroeconomic-data-set/
+* __HistoricalGDPSharesValues.xls__ contains ShareGDP datas from https://www.ers.usda.gov/data-products/international-macroeconomic-data-set/ (obtained on July 06 2017)
 * __Olympic cities split on size.xlsx__ contains the categorized data that split the cities into Small/Big
 * __CAR+shareGDP.csv__ is the dataset that combine CAR in Tables and ShareGDP in HistoricalGDPSharesValues to do the regression
 
