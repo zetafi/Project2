@@ -6,7 +6,7 @@ sgdp <- as.data.frame(sgdp)
 reg1<-lm(CAR~ShareGDP,data=sgdp)
 summary(reg1)
 
-##Calculate HC sd
+##Calculate HC1 sd
 proj2_X <- as.matrix(cbind(rep(1,nrow(sgdp)), sgdp[,5]))
 HC1 <- (nrow(sgdp)/(nrow(sgdp)-2))*solve(t(proj2_X)%*%proj2_X)%*%(t(proj2_X)%*%diag(reg1$residuals^2)%*%proj2_X)%*%solve(t(proj2_X)%*%proj2_X)
 
@@ -24,14 +24,15 @@ Intercept_hcsd<-sqrt(HC1[1,1])
 summary(reg1)$r.squared
 
 
+
+
+
 #2.regression with dummy for Summer Games
 sgdp[,3]<-factor(sgdp[,3])
 reg2<-lm(CAR~ShareGDP+`Olympic Season`,data=sgdp)
 summary(reg2)
 
-##Calculate HC sd
-sgdp[,3]
-
+##Calculate HC1 sd
 proj2_Xd <- as.matrix(cbind(rep(1,nrow(sgdp)), sgdp[,5], 2-as.numeric(sgdp[,3])))
 HC1d <- (nrow(sgdp)/(nrow(sgdp)-3))*solve(t(proj2_Xd)%*%proj2_Xd)%*%(t(proj2_Xd)%*%diag(reg2$residuals^2)%*%proj2_Xd)%*%solve(t(proj2_Xd)%*%proj2_Xd)
 
