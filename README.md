@@ -1,11 +1,11 @@
 # Project2
 Project2 of Jerry@UWOSH
 
-### Overview
+## Overview
 This project contained data file and regression code to replicate the regression in the Table 2 of Dick & Wang's paper.
 
 
-### Datas
+## Datas
 * __Tables.xlsx__ contains the CAR values for each application catagorized in Winners/ Losers/Losers
 * __HistoricalGDPSharesValues.xls__ contains ShareGDP datas from https://www.ers.usda.gov/data-products/international-macroeconomic-data-set/ (Historical Data Files\GDP Shares by Country and Region Historical)  (obtained on July 06 2017)
 * __Olympic cities split on size.xlsx__ contains the categorized data that split the cities into Small/Big
@@ -15,15 +15,15 @@ This project contained data file and regression code to replicate the regression
 
 
 
-### Papers
+## Papers
 * __Dick Wang - The Economic Impact of Olympic Games - Evidence from Stock Markets__ is the paper of Dick & Wang
 
-### Codes
+## Codes
 * __Project2_reg.R__ contains code to calculate the regression result in Table2
 * __Project2_meanCAR.R__ contains code to calculate the mean of CAR based on city size to enrich the Table5&7
 
 
-### Result for the regression
+## Result for the regression
 __Table 2__ _CAR~ShareGDP_ , Model(1) without dummy variable and Model(2) with dummy variable. 
 
 
@@ -57,8 +57,8 @@ Constant|0.01161214|0.008025792
 \_\_\_\_\_\_p-value|0.1981456|0.2682529 
 R-squared|0.03529741|0.05545364
 
-### Result for the mean CAR based on different city size
-__Table 5__ Average Cumulative Abnormal Returns: Winning Bids
+## Result for the mean CAR based on different city size
+### __Table 5__ Average Cumulative Abnormal Returns: Winning Bids
 
 _Small cities_
 
@@ -76,7 +76,7 @@ Mean CAR|0.005861818|0.014630000|0.014853636|0.007874545|0.013611818|-0.00156272
 SD(Mean CAR)|0.005631592|0.006897263|0.009754203|0.012592622|0.008904329|0.013207254|0.008904329|0.005631592
 test statistic|1.0408812|2.1211312|1.5227934|0.6253301|1.5286743|-0.1183234|-1.8433323|-0.1825739
 
-__Table 7__ Average Cumulative Abnormal Returns: Losing Bids
+### __Table 7__ Average Cumulative Abnormal Returns: Losing Bids
 
 _Small cities_
 
