@@ -46,16 +46,16 @@ __Table 2__ _CAR/Sigma~ShareGDP_ , Model(1) without dummy variable and Model(2) 
 
 Variable | Model(1) | Model(2)
 -|-|-
-Share of GDP|-0.06510142|-0.060373797
-\_\_\_\_\_\_HC1 SD|0.06583529|0.06352069
-\_\_\_\_\_\_p-value|0.3227351|0.3418792
-Summer Game||-0.006946086
-\_\_\_\_\_\_HC1 SD||0.01176082
-\_\_\_\_\_\_p-value||0.5547803
-Constant|0.01161214|0.008025792
-\_\_\_\_\_\_HC1 SD|0.009023675|0.007249417
-\_\_\_\_\_\_p-value|0.1981456|0.2682529 
-R-squared|0.03529741|0.05545364
+Share of GDP|-0.2232692|-0.06188296
+\_\_\_\_\_\_HC1 SD|2.147288|2.185919
+\_\_\_\_\_\_p-value|0.9171874|0.9774151
+Summer Game||-0.2371178
+\_\_\_\_\_\_HC1 SD||0.3440595
+\_\_\_\_\_\_p-value||0.4907121
+Constant|0.2398471|0.1174203
+\_\_\_\_\_\_HC1 SD|0.2628825|0.2083771
+\_\_\_\_\_\_p-value|0.0004891025|0.5730953 
+R-squared|0.03529741|0.02816092
 
 ## Result for the mean CAR based on different city size
 ### __Table 5__ Average Cumulative Abnormal Returns: Winning Bids
