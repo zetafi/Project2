@@ -116,7 +116,7 @@ sgdp[,3]<-factor(sgdp[,3])
 proj2_Xd <- as.matrix(cbind(rep(1,nrow(sgdp)), sgdp[,5], 2-as.numeric(sgdp[,3])))
 HC1td <- (nrow(sgdp)/(nrow(sgdp)-3))*solve(t(proj2_Xd)%*%proj2_Xd)%*%(t(proj2_Xd)%*%diag(regt2$residuals^2)%*%proj2_Xd)%*%solve(t(proj2_Xd)%*%proj2_Xd)
 
-## ShareGDP -0.06188296 (2.185919) p-value 0.9774151 
+## ShareGDP -0.06188296(2.185919) p-value 0.9774151 
 ShareGDPt_value2<-regt2$coefficient[2]
 ShareGDPt_value2
 ShareGDPt_hcsd2<-sqrt(HC1td[2,2])
