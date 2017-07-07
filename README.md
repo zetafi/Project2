@@ -54,8 +54,8 @@ Summer Game||-0.2371178
 \_\_\_\_\_\_p-value||0.4907121
 Constant|0.2398471|0.1174203
 \_\_\_\_\_\_HC1 SD|0.2628825|0.2083771
-\_\_\_\_\_\_p-value|0.0004891025|0.5730953 
-R-squared|0.03529741|0.02816092
+\_\_\_\_\_\_p-value|0.361572|0.5730953 
+R-squared|0.0004891025|0.02816092
 
 ## Result for the mean CAR based on different city size
 ### __Table 5__ Average Cumulative Abnormal Returns: Winning Bids
