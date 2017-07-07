@@ -24,7 +24,7 @@ This project contained data file and regression code to replicate the regression
 
 
 ### Result for the regression
-__Table 2__ _CAR~ShareGDP_ Model(1) without dummy variable and Model(2) with dummy variable. 
+__Table 2__ _CAR~ShareGDP_ , Model(1) without dummy variable and Model(2) with dummy variable. 
 
 
 Variable | Model(1) | Model(2)
@@ -41,7 +41,7 @@ Constant|0.01161214|0.008025792
 R-squared|0.03529741|0.05545364
 
 
-__Table 2__ _CAR/Sigma~ShareGDP_ Model(1) without dummy variable and Model(2) with dummy variable. 
+__Table 2__ _CAR/Sigma~ShareGDP_ , Model(1) without dummy variable and Model(2) with dummy variable. 
 
 
 Variable | Model(1) | Model(2)
@@ -64,17 +64,17 @@ _Small cities_
 
 Event Window([T1,T2])|[0,1]|[0,2]|[0,5]|[0,9]|[-2,2]|[-5,5]|[-5,-1]|[-2,-1]
 -|-|-|-|-|-|-|-|-
-Mean CAR|1|1|1|1|1|1|1|1
-SD(Mean CAR)|1|1|1|1|1|1|1|1
-test statistic|1|1|1|1|1|1|1|1
+Mean CAR|0.002518750|-0.003167500|-0.002528750|-0.006040000|-0.002530000|-0.001352375|0.001173750|0.000611250
+SD(Mean CAR)|0.006164039|0.007549375|0.010676428|0.013783210|0.009746201|0.014455952|0.009746201|0.006164039
+test statistic|0.40862007|-0.41957116|-0.23685355|-0.43821432|-0.25958832|-0.09355143|0.12043154|0.09916388
 
 _Big cities_
 
 Event Window([T1,T2])|[0,1]|[0,2]|[0,5]|[0,9]|[-2,2]|[-5,5]|[-5,-1]|[-2,-1]
 -|-|-|-|-|-|-|-|-
-Mean CAR|1|1|1|1|1|1|1|1
-SD(Mean CAR)|1|1|1|1|1|1|1|1
-test statistic|1|1|1|1|1|1|1|1
+Mean CAR|0.005861818|0.014630000|0.014853636|0.007874545|0.013611818|-0.001562727|-0.016413636|-0.001028182
+SD(Mean CAR)|0.005631592|0.006897263|0.009754203|0.012592622|0.008904329|0.013207254|0.008904329|0.005631592
+test statistic|1.0408812|2.1211312|1.5227934|0.6253301|1.5286743|-0.1183234|-1.8433323|-0.1825739
 
 __Table 7__ Average Cumulative Abnormal Returns: Losing Bids
 
@@ -90,6 +90,6 @@ _Big cities_
 
 Event Window([T1,T2])|[0,1]|[0,2]|[0,5]|[0,9]|[-2,2]|[-5,5]|[-5,-1]|[-2,-1]
 -|-|-|-|-|-|-|-|-
-Mean CAR|1|1|1|1|1|1|1|1
+Mean CAR|0.0044542105|0.0071363158|0.0075347368|0.0020157895|0.0068152632|-0.0014741579|-0.0090084211|-0.0003378947
 SD(Mean CAR)|1|1|1|1|1|1|1|1
 test statistic|1|1|1|1|1|1|1|1
