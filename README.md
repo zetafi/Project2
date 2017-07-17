@@ -24,7 +24,7 @@ This project contained data file and regression code to replicate the regression
 
 
 ## Result for the regression
-__Table 2__ _CAR~ShareGDP_ , Model(1) without dummy variable and Model(2) with dummy variable. 
+__Table 2__ _CAR~ShareGDP_ , Model(1) without dummy variable and Model(2) with dummy variable.Event Window [0,5].
 
 
 Variable | Model(1) | Model(2)
@@ -41,7 +41,7 @@ Constant|0.01161214|0.008025792
 R-squared|0.03529741|0.05545364
 
 
-__Table 2__ _CAR/Sigma~ShareGDP_ , Model(1) without dummy variable and Model(2) with dummy variable. 
+__Table 2__ _CAR/Sigma~ShareGDP_ , Model(1) without dummy variable and Model(2) with dummy variable.Event Window [0,5].
 
 
 Variable | Model(1) | Model(2)
